@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/col_profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/com"
+            android:icon="@drawable/col_complaint"
+            android:title="Complaint" />
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/col_feedback"
+            android:title="Feedback" />
+        <item
+            android:id="@+id/leaf"
+            android:icon="@drawable/col_plant"
+            android:title="Leaf" />
+        <item
+            android:id="@+id/pre"
+            android:icon="@drawable/col_scan"
+            android:title="Detection" />
+
+
+
+            <item
+                android:id="@+id/noti"
+                android:icon="@drawable/col_bell"
+                android:title="Notification" />
+            <item
+                android:id="@+id/ferti"
+                android:icon="@drawable/fertilizer"
+                android:title="Fertilizer" />
+        <item
+            android:id="@+id/tips"
+            android:icon="@drawable/col_tips"
+            android:title="Tips" />
+        <item
+            android:id="@+id/doubt"
+            android:icon="@drawable/col_doubts"
+            android:title="Doubt" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/col_logout"
+            android:title="Logout" />
+    </group>
+</menu>

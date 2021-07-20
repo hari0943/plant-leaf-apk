@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".viewprofile">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Name" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/dob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Dob" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:gravity="center">
+        <EditText
+            android:id="@+id/gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="gender" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Place" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/pin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Pin" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Email" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="phone" />
+    </TableRow>
+
+
+</LinearLayout>

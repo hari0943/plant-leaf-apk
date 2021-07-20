@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/adef"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/name"
+            android:background="@drawable/edrounded"
+            android:padding="5dp"
+            android:layout_height="45dp"
+            android:layout_width="250dp"
+
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Name" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/dob"
+            android:padding="5dp"
+            android:layout_width="250dp"
+            android:background="@drawable/edrounded"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Dob" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:gravity="center">
+
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Male" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Female" />
+        </RadioGroup>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/place"
+            android:padding="5dp"
+            android:layout_width="250dp"
+            android:background="@drawable/edrounded"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Place" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/pin"
+            android:padding="5dp"
+            android:layout_width="250dp"
+            android:background="@drawable/edrounded"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Pin" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/email"
+            android:padding="5dp"
+            android:layout_width="250dp"
+            android:background="@drawable/edrounded"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Email" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/phone"
+            android:padding="5dp"
+            android:layout_width="250dp"
+            android:background="@drawable/edrounded"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="phone" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/password"
+            android:padding="5dp"
+
+            android:layout_width="250dp"
+            android:background="@drawable/edrounded"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="Password" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:gravity="center">
+
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="save" />
+    </TableRow>
+</LinearLayout>
